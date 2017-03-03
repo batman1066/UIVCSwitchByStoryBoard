@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C6FF1091E6978DB00DE1B88 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6FF1081E6978DB00DE1B88 /* ViewController2.m */; };
 		8CD2D68F1DE1E41C00883D60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2D68E1DE1E41C00883D60 /* main.m */; };
 		8CD2D6921DE1E41C00883D60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2D6911DE1E41C00883D60 /* AppDelegate.m */; };
 		8CD2D6951DE1E41C00883D60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2D6941DE1E41C00883D60 /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		8CD2D69D1DE1E41C00883D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD2D69B1DE1E41C00883D60 /* LaunchScreen.storyboard */; };
 		8CD2D6A81DE1E41C00883D60 /* UIVCSwitchByStoryBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2D6A71DE1E41C00883D60 /* UIVCSwitchByStoryBoardTests.m */; };
 		8CD2D6B31DE1E41C00883D60 /* UIVCSwitchByStoryBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2D6B21DE1E41C00883D60 /* UIVCSwitchByStoryBoardUITests.m */; };
-		8CD2D6C21DE1E61100883D60 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2D6C11DE1E61100883D60 /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C6FF1071E6978DB00DE1B88 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		8C6FF1081E6978DB00DE1B88 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		8CD2D68A1DE1E41C00883D60 /* UIVCSwitchByStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIVCSwitchByStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD2D68E1DE1E41C00883D60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CD2D6901DE1E41C00883D60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +54,6 @@
 		8CD2D6AE1DE1E41C00883D60 /* UIVCSwitchByStoryBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIVCSwitchByStoryBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD2D6B21DE1E41C00883D60 /* UIVCSwitchByStoryBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIVCSwitchByStoryBoardUITests.m; sourceTree = "<group>"; };
 		8CD2D6B41DE1E41C00883D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CD2D6C01DE1E61100883D60 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController2.h; path = ../ViewController2.h; sourceTree = "<group>"; };
-		8CD2D6C11DE1E61100883D60 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController2.m; path = ../ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +104,12 @@
 		8CD2D68C1DE1E41C00883D60 /* UIVCSwitchByStoryBoard */ = {
 			isa = PBXGroup;
 			children = (
-				8CD2D6C01DE1E61100883D60 /* ViewController2.h */,
-				8CD2D6C11DE1E61100883D60 /* ViewController2.m */,
 				8CD2D6901DE1E41C00883D60 /* AppDelegate.h */,
 				8CD2D6911DE1E41C00883D60 /* AppDelegate.m */,
 				8CD2D6931DE1E41C00883D60 /* ViewController.h */,
 				8CD2D6941DE1E41C00883D60 /* ViewController.m */,
+				8C6FF1071E6978DB00DE1B88 /* ViewController2.h */,
+				8C6FF1081E6978DB00DE1B88 /* ViewController2.m */,
 				8CD2D6961DE1E41C00883D60 /* Main.storyboard */,
 				8CD2D6991DE1E41C00883D60 /* Assets.xcassets */,
 				8CD2D69B1DE1E41C00883D60 /* LaunchScreen.storyboard */,
@@ -282,7 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CD2D6951DE1E41C00883D60 /* ViewController.m in Sources */,
-				8CD2D6C21DE1E61100883D60 /* ViewController2.m in Sources */,
+				8C6FF1091E6978DB00DE1B88 /* ViewController2.m in Sources */,
 				8CD2D6921DE1E41C00883D60 /* AppDelegate.m in Sources */,
 				8CD2D68F1DE1E41C00883D60 /* main.m in Sources */,
 			);
@@ -433,8 +433,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VCBJ7R8EST;
 				INFOPLIST_FILE = UIVCSwitchByStoryBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.UIVCSwitchByStoryBoard;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangming.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -445,8 +446,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VCBJ7R8EST;
 				INFOPLIST_FILE = UIVCSwitchByStoryBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.UIVCSwitchByStoryBoard;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangming.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -520,6 +522,7 @@
 				8CD2D6B91DE1E41C00883D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CD2D6BA1DE1E41C00883D60 /* Build configuration list for PBXNativeTarget "UIVCSwitchByStoryBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +531,7 @@
 				8CD2D6BC1DE1E41C00883D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CD2D6BD1DE1E41C00883D60 /* Build configuration list for PBXNativeTarget "UIVCSwitchByStoryBoardUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +540,7 @@
 				8CD2D6BF1DE1E41C00883D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
